@@ -38,6 +38,11 @@ Than you can use this command to compile the RP2040 firmware for the KLOR.
 
 `qmk compile -kb klor/2040 -km default`
 
+## Buu's keymap
+
+Copy `/klor/keymaps/buu` to `qmk_firmware/keyboards/geigeigeist/klor/keymaps/buu`
+
+`qmk compile -e CONVERT_TO=promicro_rp2040 -kb geigeigeist/klor -km buu`
 
 ## TODO
 - Add VIA(L) support
